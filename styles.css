@@ -1,0 +1,156 @@
+ /* Extra small devices */
+ @media (max-width: 500px) {
+.topnav {
+	display: flex;
+		overflow: hidden;
+		background-color: rgb(243, 232, 232);
+flex-direction: column;
+	  }
+	 .topnav a {
+	
+		color: #132220;
+		text-align: left;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	  }
+	  
+	  .topnav a:hover {
+		background-color: rgb(214, 136, 169);
+		color: black;
+	  }
+	  
+	  .topnav a.active {
+		background-color: #270129;
+		color: white;
+	  }	
+}
+@media(min-width: 500px) and (max-width: 768px) {
+.topnav {
+	display: flex;
+	flex-wrap: wrap-reverse;
+		overflow: hidden;
+		background-color: rgb(243, 232, 232);
+flex: auto;
+	  }
+	  
+	  .topnav a {
+	
+		color: #132220;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	  }
+	  
+	  .topnav a:hover {
+		background-color: rgb(214, 136, 169);
+		color: black;
+	  }
+	  
+	  .topnav a.active {
+		background-color: #270129;
+		color: white;
+	  }	}
+	  
+ /* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {
+.topnav {
+	
+		overflow: hidden;
+		background-color: rgb(243, 232, 232);
+flex: auto;
+	  }
+	  
+	  .topnav a {
+	
+		color: #132220;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	  }
+	  
+	  .topnav a:hover {
+		background-color: rgb(214, 136, 169);
+		color: black;
+	  }
+	  
+	  .topnav a.active {
+		background-color: #270129;
+		color: white;
+	  }	
+}
+
+
+div.ex3 {
+  height: 300px;
+  width: px;  
+  overflow-y: auto;
+}
+      .flex-header {
+      display: flex;
+   border-radius: 2px;
+		  border-color: beige;
+    text-align: center;
+
+      }
+
+.flex-body {
+	display: grid;
+    margin: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+
+section{
+	margin: 50px;
+	display: flex;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 20% 50% 30%;
+}
+.grid-container1{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+h1 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	border-bottom: thin;
+	text-align:center;
+}
+      .flex-body > div {
+      background-color: #f1f1f1;
+      width: px;
+      margin: 10px;
+      text-align: start;
+      line-height: 75px;
+      font-size: 15px;
+      }
+      .flex-main {
+		  grid-column: 1; grid-row: 1;
+      display: flex;
+      height: px;
+      flex-direction: column;
+      }
+
+      .flex-main > div {
+      background-color: #f1f1f1;
+      width: px;
+      margin: 40px;
+      text-align: start;
+      line-height: 35px;
+      font-size: 15px;
+      }
+
+	  aside {
+  grid-column: 2; 
+		  margin: 10px;
+}
+h5 {
+	height: 30px;
+}	
+footer{ 
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; }
